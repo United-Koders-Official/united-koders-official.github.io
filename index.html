@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>UNITED KODERS | Software built in the open from Cameroon</title>
+<meta name="description" content="UNITED KODERS is a remote-first software team across Douala, Yaoundé and Bafoussam. We build Agrilink and Level Up in public.">
+<meta property="og:title" content="UNITED KODERS">
+<meta property="og:description" content="Code, Collaborate, and Conquer. Real software, built in the open from Cameroon.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230B6B3A'/%3E%3Cpath d='M9 8v10a7 7 0 0 0 14 0V8' fill='none' stroke='%23F2B705' stroke-width='3.5'/%3E%3C/svg%3E">
+<style>
+:root{
+  --bg:#F7F8F5; --surface:#FFFFFF; --ink:#14231B; --muted:#4A5A50;
+  --green:#0B6B3A; --yellow:#F2B705; --line:#D8DED8; --on-green:#FFFFFF;
+}
+@media (prefers-color-scheme:dark){
+  :root{--bg:#0F1A14; --surface:#16241C; --ink:#EAF1EC; --muted:#A9B8AE; --green:#3DB874; --line:#26382D; --on-green:#0F1A14}
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;-webkit-text-size-adjust:100%}
+a{color:var(--green)}
+.wrap{max-width:720px;margin:0 auto;padding:0 20px}
+section{padding:48px 0;border-top:1px solid var(--line)}
+h1,h2,h3{line-height:1.15;margin:0 0 14px}
+h1{font-size:clamp(2.1rem,8vw,3.4rem);font-weight:850;letter-spacing:-.02em}
+h2{font-size:1.6rem;font-weight:800}
+h3{font-size:1.15rem}
+p{margin:0 0 14px}
+.muted{color:var(--muted)}
+header{padding:16px 0}
+header .wrap{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.brand{font-weight:850;letter-spacing:.02em;color:var(--ink);text-decoration:none}
+nav a{margin-left:16px;color:var(--muted);text-decoration:none;font-size:.95rem}
+.hero{padding:40px 0 48px;border-top:0}
+.hero p.lead{font-size:1.2rem;max-width:34em}
+.nodes{display:block;width:100%;max-width:340px;height:auto;margin:8px 0 24px}
+.nodes text{fill:var(--ink);font:600 13px system-ui,sans-serif}
+.nodes line{stroke:var(--green);stroke-width:2;stroke-dasharray:5 5}
+.nodes circle{fill:var(--yellow);stroke:var(--green);stroke-width:2.5}
+.btns{display:flex;flex-wrap:wrap;gap:12px;margin-top:20px}
+.btn{display:inline-block;padding:13px 20px;border-radius:8px;font-weight:700;text-decoration:none;border:2px solid var(--green)}
+.btn.primary{background:var(--green);color:var(--on-green)}
+.btn.ghost{color:var(--green)}
+.btn:focus-visible,a:focus-visible{outline:3px solid var(--yellow);outline-offset:2px}
+.project{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:20px;margin-bottom:16px}
+.tag{display:inline-block;font-size:.85rem;font-weight:700;padding:2px 10px;border-radius:99px;background:var(--yellow);color:#14231B;margin-bottom:10px}
+.project ul{margin:0 0 14px;padding-left:20px}
+dl{margin:0}
+dt{font-weight:700}
+dd{margin:0 0 14px;color:var(--muted)}
+table{width:100%;border-collapse:collapse}
+th,td{text-align:left;padding:10px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:.9rem;color:var(--muted)}
+footer{padding:32px 0;border-top:1px solid var(--line);color:var(--muted);font-size:.95rem}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <a class="brand" href="#top">UNITED KODERS</a>
+    <nav>
+      <a href="#projects">Projects</a>
+      <a href="#join">Join</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+<section class="hero">
+  <div class="wrap">
+    <h1>Three cities. One codebase.</h1>
+    <svg class="nodes" viewBox="0 0 340 130" role="img" aria-label="Bafoussam, Yaoundé and Douala connected as one team">
+      <line x1="60" y1="35" x2="270" y2="60"/>
+      <line x1="60" y1="35" x2="110" y2="100"/>
+      <line x1="110" y1="100" x2="270" y2="60"/>
+      <circle cx="60" cy="35" r="9"/><circle cx="270" cy="60" r="9"/><circle cx="110" cy="100" r="9"/>
+      <text x="74" y="30">Bafoussam</text>
+      <text x="225" y="88">Yaoundé</text>
+      <text x="124" y="118">Douala</text>
+    </svg>
+    <p class="lead">UNITED KODERS is a software engineering team of 10 developers working remotely across Cameroon. We design and build practical software in the open and publish our work as evidence of our skills.</p>
+    <p class="muted">Code, Collaborate, and Conquer.</p>
+    <div class="btns">
+      <a class="btn primary" href="#projects">See what we build</a>
+      <a class="btn ghost" href="#join">Join the team</a>
+    </div>
+  </div>
+</section>
+
+<section id="mission">
+  <div class="wrap">
+    <h2>Our mission</h2>
+    <p>Many young developers in Cameroon cannot get a first job without experience, and cannot gain experience without a first job. Access to opportunities and knowledge is often limited to a few people.</p>
+    <p>We address this by building working software publicly, sharing what we learn, and teaching from the simplest concepts. Our public code is our portfolio.</p>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="wrap">
+    <h2>What we build</h2>
+
+    <article class="project">
+      <span class="tag">Working MVP</span>
+      <h3>Agrilink</h3>
+      <p>Connects farmers directly to buyers, so farmers earn more and consumers pay fairer prices.</p>
+      <ul>
+        <li>Presented at the Westech Hackathon, Bafoussam, July 2025</li>
+        <li>Built with Python and PostgreSQL</li>
+      </ul>
+      <a href="[AGRILINK-DEMO-LINK]">Try the demo</a> · <a href="[AGRILINK-REPO-LINK]">View the code</a>
+    </article>
+
+    <article class="project">
+      <span class="tag">In design</span>
+      <h3>Level Up</h3>
+      <p>[CONFIRM] A growth platform where beginners learn step by step by building real projects they can show publicly.</p>
+      <a href="[LEVELUP-LINK]">Follow the design</a>
+    </article>
+  </div>
+</section>
+
+<section id="how">
+  <div class="wrap">
+    <h2>How we work</h2>
+    <dl>
+      <dt>Light on data</dt>
+      <dd>Small pages and small responses, so our products work on mobile data.</dd>
+      <dt>We own our infrastructure</dt>
+      <dd>Python, PostgreSQL, Docker and MinIO on our own Linux server. Lower cost, and the data stays under our control.</dd>
+      <dt>Reviewed across cities</dt>
+      <dd>Every change is reviewed by another team member before release.</dd>
+    </dl>
+  </div>
+</section>
+
+<section id="about">
+  <div class="wrap">
+    <h2>About us</h2>
+    <p>UNITED KODERS was founded by Desmel Anodem. The team grew from two friends to four, and in July 2025 competed at the Westech Hackathon in Bafoussam, where we presented Agrilink and placed 5th of 8 teams.</p>
+    <p>Today we are 10 members working remotely from Douala, Yaoundé and Bafoussam.</p>
+  </div>
+</section>
+
+<section id="join">
+  <div class="wrap">
+    <h2>Join or partner with us</h2>
+    <p><strong>Developers:</strong> membership is earned through an open challenge. Choose one of our public projects, improve it, and explain your work.</p>
+    <div class="btns">
+      <a class="btn primary" href="[GOOGLE-FORM-LINK]">Take the challenge</a>
+    </div>
+    <p style="margin-top:24px"><strong>Partners, hubs and event organizers:</strong> we welcome partnerships, including pilot testing of Agrilink.</p>
+    <div class="btns">
+      <a class="btn ghost" href="mailto:[EMAIL]">Email us</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <p><a href="https://github.com/United-Koders-Official">GitHub</a> · <a href="[LINKEDIN-LINK]">LinkedIn</a> · <a href="[TELEGRAM-LINK]">Telegram</a></p>
+    <p>UNITED KODERS · Douala, Yaoundé, Bafoussam, Cameroon</p>
+  </div>
+</footer>
+
+</body>
+</html>
